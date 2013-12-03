@@ -47,11 +47,11 @@
 
 $active_group = 'default';
 $active_record = TRUE;
-
-$db['default']['hostname'] = '(local)';
+$db['default']['port'] = '1433';
+$db['default']['hostname'] = '192.168.201.207';
 $db['default']['username'] = 'sa';
 $db['default']['password'] = '45624986';
-$db['default']['database'] = 'GT';
+$db['default']['database'] = 'GestionTicket';
 $db['default']['dbdriver'] = 'sqlsrv';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;
